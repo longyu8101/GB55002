@@ -1,0 +1,563 @@
+4 地震作用和结构抗震验算
+=================================================
+
+.. raw:: html
+
+  <h2 id="test111">4 地震作用和结构抗震验算</h2>
+
+4.1 一般规定
+----------------------
+
+.. raw:: html
+
+  <p style="text-align:justify;"><a href="#id4.1.1"> 4.1.1</a> <span id="id4.1.1">各类建筑与市政工程地震作用计算时，设计地震动参数应根据设防烈度按本规范第2.2节的相关规定确定，并按下列规定进行调整：</span></p>
+  <ol>
+  <li>当工程结构处于发震断裂两侧10km以内时，应计入近场效应对设计地震动参数的影响。</li>
+  <li>当工程结构处于条状突出的山嘴、高耸孤立的山丘、非岩石和强风化岩石的陡坡、河岸与边坡边缘等不利地段时，应考虑不利地段对水平设计地震参数的放大作用。放大系数应根据不利地段的具体情况确定，其数值不得小于1.1，不大于1.6。</li>
+  </ol>
+  <p><a href="#id4.1.2"> 4.1.2</a> <span id="id4.1.2">各类建筑与市政工程的地震作用，应采用符合结构实际工作状况的分析模型进行计算，并应符合下列规定：</span></p>
+  <ol>
+  <li>一般情况下，应至少沿结构两个主轴方向分别计算水平地震作用；当结构中存在与主轴交角大于15°的斜交抗侧力构件时，尚应计算斜交构件方向的水平地震作用。</li>
+  <li>计算各抗侧力构件的水平地震作用效应时，应计入扭转效应的影响。</li>
+  <li>抗震设防烈度不低于8度的大跨度、长悬臂结构和抗震设防烈度9度的高层建筑物、盛水构筑物、贮气罐、储气柜等，应计算竖向地震作用。</li>
+  <li>对平面投影尺度很大的空间结构和长线型结构，地震作用计算时应考虑地震地面运动的空间和时间变化。</li>
+  <li>对地下建筑和埋地管道，应考虑地震地面运动的位移向量影响进行地震作用效应计算。</li>
+  </ol>
+  <p><a href="#id4.1.3"> 4.1.3</a> <span id="id4.1.3">计算地震作用时，建筑与市政工程结构的重力荷载代表值应取结构和构配件自重标准值和各可变荷载组合值之和。各可变荷载的组合值系数，应按<a href="#B4.1.3">表4.1.3</a>采用。</span></p>
+
+  <style>
+      #biaoge {
+         border: 2px solid black;
+         border-collapse: collapse;
+         margin-bottom:1px;
+        
+      }
+      th, td {
+         padding-top: 5px;
+         padding-bottom:5px;
+         padding-left:5px;
+         padding-right:5px;
+         border: 1px solid black;
+      }
+      #eqzs {
+         border: 0px;
+      }
+      #dhbg {
+        vertical-align: middle;
+      }
+   </style>
+	<table id="biaoge" style="font-family:times new roman">
+    <caption style="caption-side:top;text-align: center;color:black" ><b style="text-align:center"> <div id="#B4.1.3">表4.1.3 组合值系数</b></caption>	    
+		<tr>
+		   <td width="700px" align="center" colspan="2">可变荷载种类</td>
+       <td width="200px" align="center">组合值系数</td>
+		</tr>
+   <tr>
+		   <td width="700px" align="center" colspan="2">雪荷载</td>
+       <td width="200px" align="center">0.5</td>
+		</tr>
+    <tr>
+		   <td width="700px" align="center" colspan="2">屋面积灰荷载</td>
+       <td width="200px" align="center">0.5</td>
+		</tr>
+    <tr>
+		   <td width="700px" align="center" colspan="2">屋面活荷载</td>
+       <td width="200px" align="center">不计入</td>
+		</tr>
+    <tr>
+		   <td width="700px" align="center" colspan="2">按实际情况计算的楼面活荷载</td>
+       <td width="200px" align="center">1.0</td>
+		</tr>
+    <tr>
+		   <td width="250px" align="center" rowspan="2">按等效均布荷载计算的楼面活荷载</td>
+		   <td width="450px" align="center">藏书库、档案库</td>
+       <td width="200px" align="center">0.8</td>
+		</tr>
+    <tr>
+		   <td width="450px" align="center">其他民用建筑、城镇给水排水和燃气热力工程</td>
+       <td width="200px" align="center">0.5</td>
+		</tr>
+    <tr>
+		   <td width="250px" align="center" rowspan="2" style="vertical-align: middle;text-align: center;">起重机悬吊物重力</td>
+		   <td width="450px" align="center">硬钩吊车</td>
+       <td width="200px" align="center">0.3</td>
+		</tr>
+    <tr>
+		   <td width="450px" align="center">软钩吊车</td>
+       <td width="200px" align="center">不计入</td>
+		</tr>
+	  
+	</table>
+  <p></p>
+
+  <p><a href="#id4.1.4"> 4.1.4</a> <span id="id4.1.4">各类建筑与市政工程结构的抗震设计应符合下列规定：</span></p>
+  <ol>
+  <li>各类建筑与市政工程结构均应进行构件截面抗震承载力验算。</li>
+  <li>应进行抗震变形、变位或稳定验算。</li>
+  <li>应采取抗震措施。</li>
+  </ol>
+
+4.2 地震作用
+----------------------
+
+.. raw:: html
+
+  <p><a href="#id4.2.1"> 4.2.1</a> <span id="id4.2.1">建筑与市政工程的水平地震作用确定应符合下列规定：</span></p>
+  <ol>
+  <li>采用底部剪力法或振型分解反应谱法计算建筑结构、桥梁结构、地上管线、地上构筑物等建筑与市政工程的水平地震作用时，水平地震影响系数的取值应符合本规范第4.2.2条的规定。</li>
+  <li style="text-align:justify;">采用时程分析法计算建筑结构、桥梁结构、地上管线、地上构筑物等市政工程的水平地震作用时，输入激励的平均地震影响系数曲线应与振型分解反应谱法采用地震影响系数曲线在统计意义上相符。</li>
+  <li>地下工程结构的水平地震作用应根据地下工程的尺度、结构构件的刚度以及地震地面运动的差异变形采用简化方法或时程分析方法确定。</li>
+  </ol>
+  
+  <p><a href="#id4.2.2"> 4.2.2</a> <span id="id4.2.2">各类建筑与市政工程的水平地震影响系数取值，应符合下列规定：</span></p>
+  <ol>
+  <li>水平地震影响系数应根据烈度、场地类别、设计地震分组和结构自振周期以及阻尼比确定。</li>
+  <li>水平地震影响系数最大值不应小于<a href="#B4.2.2-1">表4.2.2-1</a>的规定。</li>
+  <p></p>
+  <table id="biaoge" style="font-family:times new roman">
+      <caption style="caption-side:top;text-align: center;color:black" ><b style="text-align:center"> <div id="B4.2.2-1">表4.2.2-1 水平地震影响系数最大值</b></caption>	    
+		<tr>
+		   <td width="200px" align="center" rowspan="2" style="vertical-align: middle;text-align: center;">地震影响</td>
+		   <td width="100px" align="center">6度</td>
+		   <td width="200px" align="center" colspan="2">7度</td>
+		   <td width="200px" align="center" colspan="2">8度</td>
+       <td width="100px" align="center">9度</td>
+		</tr>
+	   <tr>
+		   <td align="center">0.05g</td>
+		   <td align="center">0.10g</td>
+		   <td align="center">0.15g</td>
+       <td align="center">0.20g</td>
+       <td align="center">0.30g</td>
+       <td align="center">0.40g</td>
+		</tr>
+    <tr>
+       <td align="center">多遇地震</td>
+		   <td align="center">0.04</td>
+		   <td align="center">0.08</td>
+		   <td align="center">0.12</td>
+       <td align="center">0.16</td>
+       <td align="center">0.24</td>
+       <td align="center">0.32</td>
+		</tr>
+    <tr>
+       <td align="center">设防地震</td>
+		   <td align="center">0.12</td>
+		   <td align="center">0.23</td>
+		   <td align="center">0.34</td>
+       <td align="center">0.45</td>
+       <td align="center">0.68</td>
+       <td align="center">0.90</td>
+		</tr>
+    <tr>
+       <td align="center">罕遇地震</td>
+		   <td align="center">0.28</td>
+		   <td align="center">0.50</td>
+		   <td align="center">0.72</td>
+       <td align="center">0.90</td>
+       <td align="center">1.20</td>
+       <td align="center">1.40</td>
+		</tr>
+	</table>
+  <p></p>
+ <li>特征周期应根据场地类别和设计地震分组按<a href="#B4.2.2-2">表4.2.2-2</a>采用。当有可靠的剪切波速和覆盖层厚度且其值处于本规范表3.1.3所列场地类别的分界线±15％范围内时，应按插值方法确定特征周期。</li>
+ <p></p>
+  <table id="biaoge" style="font-family:times new roman">
+      <caption style="caption-side:top;text-align: center;color:black" ><b style="text-align:center"> <div id="B4.2.2-2">表4.2.2-2 特征周期值（s）</b></caption>	    
+		<tr>
+		   <td width="200px" align="center" rowspan="2" style="vertical-align: middle;text-align: center;">设计地震分组</td>
+		   <td width="750px" align="center" colspan="5">场地类别</td>
+		</tr>
+	   <tr>
+		   <td width="150px"align="center"><i>Ⅰ</i><sub>0</sub></td>
+		   <td width="150px"align="center"><i>Ⅰ</i><sub>1</sub></td>
+       <td width="150px"align="center">Ⅱ</td>
+       <td width="150px"align="center">Ⅲ</td>
+       <td width="150px"align="center">Ⅳ</td>
+		</tr>
+    <tr>
+       <td align="center">第一组</td>
+		   <td align="center">0.20</td>
+		   <td align="center">0.25</td>
+		   <td align="center">0.35</td>
+       <td align="center">0.45</td>
+       <td align="center">0.65</td>
+		</tr>
+    <tr>
+       <td align="center">第二组</td>
+		   <td align="center">0.25</td>
+		   <td align="center">0.30</td>
+		   <td align="center">0.40</td>
+       <td align="center">0.55</td>
+       <td align="center">0.75</td>
+		</tr>
+    <tr>
+       <td align="center">第三组</td>
+		   <td align="center">0.30</td>
+		   <td align="center">0.35</td>
+		   <td align="center">0.45</td>
+       <td align="center">0.65</td>
+       <td align="center">0.90</td>
+		</tr>
+	</table>
+  <p></p>
+ <li>计算罕遇地震作用时，特征周期应在本条第3款规定的基础上增加0.05s。</li>
+ </ol>
+
+  <p><a href="#id4.2.3"> 4.2.3</a> <span id="id4.2.3">多遇地震下，各类建筑与市政工程结构的水平地震剪力标准值应符合下列规定：</span></p>
+  <ol>
+  <li>建筑结构抗震验算时，各楼层水平地震剪力标准值应符合下式规定：</li>
+  </ol>
+
+$$V_{E k_{i}} \\ge \\lambda \\sum_{j=i }^{n} G_{j} \\tag{4.2.3-1}$$
+
+.. raw:: html
+ 
+ <table border="0" style="font-family:times new roman" id="gongshi">
+ <tr>
+ <td width="50px" align='center' id="eqzs">式中</td>
+ <td width="30px" align='left' id="eqzs"><i>V</i><sub>E<i>k</i><sub>i</sub></sub></td>
+ <td width="40px" align='left' id="eqzs">——</td>
+ <td id="eqzs">基底水平地震剪力标准值；</td>
+ </tr>
+ <tr>
+ <td id="eqzs"></td>
+ <td id="eqzs">λ</td>
+ <td id="eqzs">——</td>
+ <td id="eqzs">最小地震剪力系数，应按本条第3款的规定取值，对竖向不规则结构的薄弱层，尚应乘以1.15的增大系数；</td>
+ </tr>
+ <tr>
+ <td id="eqzs"></td>
+ <td id="eqzs"><i>G</i><sub>j</sub></td>
+ <td id="eqzs">——</td>
+ <td id="eqzs">总重力荷载代表值。</td>
+ </tr>
+ </table>
+ <p></p>
+
+.. raw:: html
+
+  <ol start="2">
+  <li>市政工程结构抗震验算时，其基底水平地震剪力标准值应符合下式规定：</li>
+
+$$V_{Ek_{0}} \\ge \\lambda G_{j} \\tag{4.2.3-2}$$
+
+.. raw:: html
+ 
+ <table border="0" style="font-family:times new roman" id="gongshi">
+ <tr>
+ <td width="50px" align='center' id="eqzs">式中</td>
+ <td width="30px" align='left' id="eqzs"><i>V</i><sub>E<i>k</i><sub>0</sub></sub></td>
+ <td width="40px" align='left' id="eqzs">——</td>
+ <td id="eqzs">基底水平地震剪力标准值；</td>
+ </tr>
+ <tr>
+ <td id="eqzs"></td>
+ <td id="eqzs">λ</td>
+ <td id="eqzs">——</td>
+ <td id="eqzs">最小地震剪力系数，应按本条第3款的规定取值；</td>
+ </tr>
+ <tr>
+ <td id="eqzs"></td>
+ <td id="eqzs">G</td>
+ <td id="eqzs">——</td>
+ <td id="eqzs">总重力荷载代表值。</td>
+ </tr>
+ </table>
+ <p></p>
+
+.. raw:: html
+
+  <ol start="3">
+  <li>多遇地震下，建筑与市政工程结构的最小地震剪力系数取值应符合下列规定：</li>
+
+  <p>&emsp;&emsp;1）对扭转不规则或基本周期小于3.5s的结构，最小地震剪力系数不应小于<a href="#B4.2.3">表4.2.3</a>的基准值；<br>&emsp;&emsp;2）对基本周期大于5.0s的结构，最小地震剪力系数不应小于表4.2.3的基准值的0.75倍；<br>&emsp;&emsp;3）对基本周期介于3.5s和5s之间的结构，最小地震剪力系数不应小于表4.2.3的基准值的(9.5—<br>&emsp;&emsp;&emsp;&emsp;<i>T</i><sub>1</sub>)/6倍（<i>T</i><sub>1</sub>为结构计算方向的基本周期）。</p>
+  </ol>
+
+  <table id="biaoge" style="font-family:times new roman">
+      <caption style="caption-side:top;text-align: center;color:black" ><b style="text-align:center"> <div id="B4.2.3">表4.2.3 最小地震剪力系数基准值<i>λ</i><sub>0</sub></b></caption>	    
+		<tr>
+		   <td width="200px" align="center">设防烈度</td>
+		   <td width="100px" align="center">6度</td>
+		   <td width="100px" align="center">7度</td>
+       <td width="100px" align="center">7度(0.15g)</td>
+		   <td width="100px" align="center">8度</td>
+       <td width="100px" align="center">8度(0.30g)</td>
+       <td width="100px" align="center">9度</td>
+		</tr>
+	   <tr>
+       <td align="center"><i>λ</i><sub>0</sub></td> 
+		   <td align="center">0.008</td>
+		   <td align="center">0.016</td>
+		   <td align="center">0.024</td>
+       <td align="center">0.032</td>
+       <td align="center">0.048</td>
+       <td align="center">0.064</td>
+		</tr>
+	</table>
+  <p></p>
+
+4.3 抗震验算
+----------------------
+
+.. raw:: html
+
+  <p><a href="#id4.3.1"> 4.3.1</a> <span id="id4.3.1">结构构件的截面抗震承载力，应符合下式规定：</span></p>
+
+$$S\\le R/\\gamma _{RE} \\tag{4.3.1}$$
+
+.. raw:: html
+ 
+ <table border="0" style="font-family:times new roman" id="gongshi">
+ <tr>
+ <td width="50px" align='center' id="eqzs">式中</td>
+ <td width="30px" align='left' id="eqzs">S</td>
+ <td width="40px" align='left' id="eqzs">——</td>
+ <td id="eqzs">结构构件的地震组合内力设计值，按本规范4.3.2条的规定确定；</td>
+ </tr>
+ <tr>
+ <td id="eqzs"></td>
+ <td id="eqzs">R</td>
+ <td id="eqzs">——</td>
+ <td id="eqzs">结构构件承载力设计值，按结构材料的强度设计值确定；</td>
+ </tr>
+ <tr>
+ <td id="eqzs"></td>
+ <td id="eqzs"><i>γ</i><sub>RE</sub></td>
+ <td id="eqzs">——</td>
+ <td id="eqzs">承载力抗震调整系数，除本规范另有专门规定外，应按<a href="#B4.3.1">表4.3.1</a>采用。</td>
+ </tr>
+ </table>
+ <p></p>
+
+.. raw:: html
+
+  <table id="biaoge" style="font-family:times new roman">
+      <caption style="caption-side:top;text-align: center;color:black" ><b style="text-align:center"> <div id="B4.3.1">表4.3.1 承载力抗震调整系数</b></caption>	    
+		<tr>
+		   <td width="200px" align="center" style="vertical-align: middle;text-align: center;">材料</td>
+		   <td width="400px" align="center">结构构件</td>
+		   <td width="300px" align="center">受力状态</td>
+       <td width="100px" align="center"><i>γ</i><sub>RE</sub></td>
+		</tr>
+	   <tr>
+		   <td align="center" style="vertical-align: middle;text-align: center;">钢</td>
+       <td align="center" style="vertical-align: middle;text-align: center;">柱，梁，支撑，节点板件，螺栓，焊缝柱，支撑</td>
+		   <td align="center" style="vertical-align: middle;text-align: center;">强度<br>稳定</td>
+		   <td align="center" style="vertical-align: middle;text-align: center;">0.75<br>0.80</td>
+		</tr>
+    <tr>
+		   <td align="center" rowspan="4" style="vertical-align: middle;text-align: center;">砌体</td>
+       <td align="center">两端均有构造柱、芯柱的承重墙</td>
+		   <td align="center">受剪</td>
+		   <td align="center">0.90</td>
+		</tr>
+    <tr>
+       <td align="center">其他承重墙</td>
+		   <td align="center">受剪</td>
+		   <td align="center">1.00</td>
+		</tr>
+    <tr>
+       <td align="center">组合砖砌体抗震墙</td>
+		   <td align="center">偏压、大偏拉和受剪</td>
+		   <td align="center">0.90</td>
+		</tr>
+    <tr>
+       <td align="center" style="vertical-align: middle;text-align: center;">配筋砌块砌体抗震墙<br>自承重墙</td>
+		   <td align="center" style="vertical-align: middle;text-align: center;">偏压、大偏拉和受剪<br>受剪</td>
+		   <td align="center" style="vertical-align: middle;text-align: center;">0.85<br>0.75</td>
+		</tr>
+    <tr>
+		   <td align="center" style="vertical-align: middle;text-align: center;">混凝土<br>钢-混凝土组合</td>
+       <td align="center" style="vertical-align: middle;text-align: center;">梁<br>轴压比小于0.15的柱<br>轴压比不小于0.15的柱<br>抗震墙<br>各类构件</td>
+		   <td align="center" style="vertical-align: middle;text-align: center;">受弯<br>偏压<br>偏压<br>偏压<br>受剪、偏拉</td>
+		   <td align="center" style="vertical-align: middle;text-align: center;">0.75<br>0.75<br>0.80<br>0.85<br>0.85</td>
+		</tr>
+    <tr>
+		   <td align="center" style="vertical-align: middle;text-align: center;">木</td>
+       <td align="center" style="vertical-align: middle;text-align: center;">受弯、受拉、受剪构件<br>轴压和压弯构件<br>木基结构板抗震墙<br>连接件</td>
+		   <td align="center" style="vertical-align: middle;text-align: center;">受弯、受拉、受剪<br>轴压和压弯<br>强度<br>强度</td>
+		   <td align="center" style="vertical-align: middle;text-align: center;">0.90<br>0.90<br>0.80<br>0.85</td>
+		</tr>
+    <tr>
+		   <td align="center" colspan="3" style="vertical-align: middle;text-align: center;">竖向地震为主的地震组合内力起控制作用时</td>
+		   <td align="center">1.00</td>
+		</tr>
+
+	</table>
+  <p></p>
+
+  <p><a href="#id4.3.2"> 4.3.2</a> <span id="id4.3.2">结构构件抗震验算的组合内力设计值应采用地震作用效应和其他作用效应的基本组合值，并应符合下式规定：</span></p>
+
+$$S=\\gamma_{G} S_{GE}+\\gamma_{Eh} S_{Ehk}+\\gamma_{Ev} S_{Evk}+\\sum\\gamma_{D_{i}} S_{D_{i}k}+\\sum ψ_{i}\\gamma_{i} S_{ik} \\tag{4.3.2}$$
+
+.. raw:: html
+ 
+ <table border="0" style="font-family:times new roman" id="gongshi">
+ <tr>
+ <td width="50px" align='center' id="eqzs">式中</td>
+ <td width="70px" align='left' id="eqzs">S</td>
+ <td width="40px" align='left' id="eqzs">——</td>
+ <td id="eqzs" style="text-align:justify;">结构构件地震组合内力设计值，包括组合的弯矩、轴向力和剪力设计值等；</td>
+ </tr>
+ <tr>
+ <td id="eqzs"></td>
+ <td id="eqzs"><i>γ</i><sub>G</sub></td>
+ <td id="eqzs">——</td>
+ <td id="eqzs">重力荷载分项系数，按<a href="#B4.3.2-1">表4.3.2-1</a>采用；</td>
+ </tr>
+ <tr>
+ <td id="eqzs"></td>
+ <td id="eqzs" style="text-align: left;"><i>γ</i><sub>Eh</sub>、<i>γ</i><sub>Ev</sub></td>
+ <td id="eqzs">——</td>
+ <td id="eqzs">分别为水平、竖向地震作用分项系数，其取值不应低于<a href="#B4.3.2-2">表4.3.2-2</a>的规定；</td>
+ </tr>
+ <tr>
+ <td id="eqzs"></td>
+ <td id="eqzs"><i>γ</i><sub><i>D</i><sub>i</sub></sub></td>
+ <td id="eqzs">——</td>
+ <td id="eqzs">不包括在重力荷载内的第i个永久荷载的分项系数，应按<a href="#B4.3.2-1">表4.3.2-1</a>采用；</td>
+ </tr>
+ <tr>
+ <td id="eqzs"></td>
+ <td id="eqzs"><i>γ</i><sub>i</sub></td>
+ <td id="eqzs">——</td>
+ <td id="eqzs">不包括在重力荷载内的第i个可变荷载的分项系数，不应小于1.5；</td>
+ </tr>
+ <tr>
+ <td id="eqzs"></td>
+ <td id="eqzs"><i>S</i><sub>GE</sub></td>
+ <td id="eqzs">——</td>
+ <td id="eqzs">重力荷载代表值的效应，有吊车时，尚应包括悬吊物重力标准值的效应；</td>
+ </tr>
+ <tr>
+ <td id="eqzs"></td>
+ <td id="eqzs"><i>S</i><sub>Ehk</sub></td>
+ <td id="eqzs">——</td>
+ <td id="eqzs">水平地震作用标准值的效应；</td>
+ </tr>
+ <tr>
+ <td id="eqzs"></td>
+ <td id="eqzs"><i>S</i><sub>Evk</sub></td>
+ <td id="eqzs">——</td>
+ <td id="eqzs">竖向地震作用标准值的效应；</td>
+ </tr>
+ <tr>
+ <td id="eqzs"></td>
+ <td id="eqzs"><i>S</i><sub><i>D</i><sub>i</sub>k</sub></td>
+ <td id="eqzs">——</td>
+ <td id="eqzs">不包括在重力荷载内的第i个永久荷载标准值的效应；</td>
+ </tr>
+ <tr>
+ <td id="eqzs"></td>
+ <td id="eqzs"><i>S</i><sub>ik</sub></td>
+ <td id="eqzs">——</td>
+ <td id="eqzs">不包括在重力荷载内的第i个可变荷载标准值的效应；</td>
+ </tr>
+ <tr>
+ <td id="eqzs"></td>
+ <td id="eqzs"><i>ψ</i><sub>i</sub></td>
+ <td id="eqzs">——</td>
+ <td id="eqzs">不包括在重力荷载内的第i个可变荷载的组合值系数，应按<a href="#B4.3.2-1">表4.3.2-1</a>采用。</td>
+ </tr>
+ </table>
+ <p></p>
+
+.. raw:: html
+
+  <table id="biaoge" style="font-family:times new roman">
+      <caption style="caption-side:top;text-align: center;color:black" ><b style="text-align:center"> <div id="B4.3.2-1">表4.3.2-1 各荷载分项系数及组合系数</b></caption>	    
+		<tr>
+		   <td width="400px" align="center" colspan="3">荷载类别、分项系数、组合系数</td>
+		   <td width="180px" align="center">对承载力不利</td>
+		   <td width="180px" align="center">对承载力有利</td>
+       <td width="400px" align="center">适用对象</td>
+		</tr>
+	  <tr>
+       <td align="center" width="150px" rowspan="4" style="vertical-align: middle;text-align: center;">永久荷载</td> 
+		   <td align="center" width="150px">重力荷载</td>
+		   <td align="center" width="100px"><i>γ</i><sub>G</sub></td>
+		   <td align="center" rowspan="2" style="vertical-align: middle;text-align: center;">≥1.3</td>
+       <td align="center" rowspan="2" style="vertical-align: middle;text-align: center;">≤1.0</td>
+       <td align="center" rowspan="2" style="vertical-align: middle;text-align: center;">所有工程</td>
+		</tr>
+    <tr>
+		   <td align="center">预应力</td>
+		   <td align="center"><i>γ</i><sub><i>D</i><sub>y</sub></sub></td>
+		</tr>
+    <tr> 
+		   <td align="center">土压力</td>
+		   <td align="center"><i>γ</i><sub><i>D</i><sub>s</sub></sub></td>
+		   <td align="center" rowspan="2" style="vertical-align: middle;text-align: center;">≥1.3</td>
+       <td align="center" rowspan="2" style="vertical-align: middle;text-align: center;">≤1.0</td>
+       <td align="center" rowspan="2" style="vertical-align: middle;text-align: center;">市政工程、地下结构</td>
+		</tr>
+    <tr>
+		   <td align="center">水压力</td>
+		   <td align="center"><i>γ</i><sub><i>D</i><sub>w</sub></sub></td>
+		</tr>
+    <tr>
+       <td align="center" rowspan="3">可变荷载</td> 
+		   <td align="center" rowspan="2" style="vertical-align: middle;text-align: center;">风荷载</td>
+		   <td align="center" rowspan="2" style="vertical-align: middle;text-align: center;"><i>ψ</i><sub>w</sub></td>
+		   <td align="center" colspan="2">0.0</td>
+       <td align="center">一般的建筑结构</td>
+		</tr>
+    <tr>
+		   <td align="center" colspan="2" style="vertical-align: middle;text-align: center;">0.2</td>
+		   <td align="center">风荷载起控制作用的建筑结构荷载</td>
+		</tr>
+    <tr> 
+		   <td align="center">温度作用</td>
+		   <td align="center"><i>ψ</i><sub>t</sub></td>
+		   <td align="center" colspan="2">0.65</td>
+       <td align="center" rowspan="2">市政工程</td>
+		</tr>
+
+	</table>
+  <p></p>
+  
+  
+  <table id="biaoge" style="font-family:times new roman">
+      <caption style="caption-side:top;text-align: center;color:black" ><b style="text-align:center"> <div id="B4.3.2-2">表4.3.2-2 地震作用分项系数</b></caption>	    
+		<tr>
+		   <td width="700px" align="center">地震作用</td>
+		   <td width="150px" align="center"><i>γ</i><sub>Eh</sub></td>
+		   <td width="150px" align="center"><i>γ</i><sub>Ev</sub></td>
+		</tr>
+	   <tr>
+       <td align="center">仅计算水平地震作用</td> 
+		   <td align="center">1.4</td>
+		   <td align="center">0.0</td>
+		</tr>
+    <tr>
+       <td align="center">仅计算竖向地震作用</td> 
+		   <td align="center">0.0</td>
+		   <td align="center">1.4</td>
+		</tr>
+    <tr>
+       <td align="center">同时计算水平与竖向地震作用（水平地震为主）</td> 
+		   <td align="center">1.4</td>
+		   <td align="center">0.5</td>
+		</tr>
+    <tr>
+       <td align="center">同时计算水平与竖向地震作用（竖向地震为主）</td> 
+		   <td align="center">0.5</td>
+		   <td align="center">1.4</td>
+		</tr>
+	</table>
+  <p></p>
+
+  <p><a href="#id4.3.3"> 4.3.3</a> <span id="id4.3.3">各类结构地震作用下的变形验算应符合下列规定：</span></p>
+
+  <ol>
+  <li>钢筋混凝土结构、钢结构、钢—混凝土组合结构等房屋建筑，应进行多遇地震下的弹性变形验算，并不应大于容许变形值。</li>
+  <li>桥梁结构，应验算罕遇地震作用下顺桥向和横桥向桥墩墩顶的位移或桥墩塑性铰区域塑性转动能力，墩顶的位移不应大于桥墩容许位移，塑性铰区域的塑性转角不应大于最大容许转角。</li>
+  </ol>
+
+:math:`\ `
+
+
+
+
+

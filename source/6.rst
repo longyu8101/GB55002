@@ -1,0 +1,477 @@
+6 市政工程抗震措施
+=======================================
+
+.. raw:: html
+
+  <h2 id="test111">6 市政工程抗震措施</h2>
+
+
+6.1 城镇桥梁
+--------------------
+
+.. raw:: html
+
+ <p><a href="#id6.1.1"> 6.1.1</a> <span id="id6.1.1">城市桥梁的抗震设计类别应根据抗震设防烈度和所属的抗震设防类别按<a href="#B6.1.1">表6.1.1</a>选用。</span></p>
+ <style>
+      #biaoge {
+         border: 2px solid black;
+         border-collapse: collapse;
+         margin-bottom:1px;
+        
+      }
+      th, td {
+         padding-top: 5px;
+         padding-bottom:5px;
+         padding-left:5px;
+         padding-right:5px;
+         border: 1px solid black;
+      }
+      #eqzs {
+         border: 0px;
+      }
+      #dhbg {
+        vertical-align: middle;
+      }
+ </style>
+ <table id="biaoge" style="font-family:times new roman">
+ <caption style="caption-side:top;text-align: center;color:black" ><b style="text-align:center"> <div id="#B6.1.1">表6.1.1 城市桥梁抗震设计类别</b></caption>	    
+	<tr>
+	<td width="200px" rowspan="2" style="vertical-align: middle;text-align: center;" align="center">抗震设防烈度</td>
+    <td width="600px" colspan="3" style="vertical-align: middle;text-align: center;" align="center">抗震设防类别</td>
+	</tr>
+	<tr>
+	<td width="200px" align="center">乙</td>
+	<td width="200px" align="center">丙</td>
+	<td width="200px" align="center">丁</td>
+	</tr>
+    <tr>
+    <td align="center">6度</td>
+    <td align="center">B</td>
+    <td align="center">C</td>
+	<td align="center">C</td>
+    </tr>
+    <tr>
+    <td align="center">7度及以上</td>
+    <td align="center">A</td>
+    <td align="center">B</td>
+	<td align="center">B</td>
+    </tr>
+ </table>
+ <p></p>
+ 
+ <p><a href="#id6.1.2"> 6.1.2</a> <span id="id6.1.2">按照本规范第6.1.1条的分类，城市桥梁抗震设计应符合下列规定：</span></p>
+ <ol>
+ <li>A类城市桥梁，应进行多遇和罕遇地震作用下的抗震分析和抗震验算，并应满足相关抗震措施的要求。</li>
+ <li>B类城市桥梁，应进行多遇地震作用下的抗震分析和抗震验算，并应满足相关抗震措施的要求。</li>
+ <li>C类城市桥梁，允许不进行抗震分析和抗震验算，但应满足相关抗震措施的要求。</li>
+ </ol>
+ <p><a href="#id6.1.3"> 6.1.3</a> <span id="id6.1.3">城市桥梁应根据其地震响应的复杂程度分为规则和非规则两类，城市桥梁的抗震分析方法应根据其抗震设计类别、规则性以及地震作用水准按<a href="#B6.1.3">表6.1.3</a>选用。</span></p>
+ <table id="biaoge" style="font-family:times new roman">
+ <caption style="caption-side:top;text-align: center;color:black" ><b style="text-align:center"> <div id="#B6.1.3">表6.1.3 城市桥梁抗震设计类别</b></caption>	    
+	<tr>
+	<td width="200px" rowspan="3" style="vertical-align: middle;text-align: center;" align="center">地震作用水准</td>
+    <td width="800px" colspan="4" style="vertical-align: middle;text-align: center;" align="center">抗震设防类别</td>
+	</tr>
+	<tr>
+	<td width="400px" align="center" colspan="2">A类</td>
+	<td width="400px" align="center" colspan="2">B类</td>
+	</tr>
+    <tr>
+    <td align="center">规则</td>
+    <td align="center">非规则</td>
+    <td align="center">规则</td>
+    <td align="center">非规则</td>
+    </tr>
+    <tr>
+    <td align="center" style="vertical-align: middle;text-align: center;">多遇地震作用</td>
+    <td align="center">单振型反应谱法<br>多振型反应谱法</td>
+    <td align="center">多振型反应谱法<br>时程分析法</td>
+	<td align="center">单振型反应谱法<br>多振型反应谱法</td>
+    <td align="center">振型反应谱法<br>时程分析法</td>
+    </tr>
+    <tr>
+    <td align="center" style="vertical-align: middle;text-align: center;">罕遇地震作用</td>
+    <td align="center">单振型反应谱法<br>多振型反应谱法</td>
+    <td align="center">多振型反应谱法<br>时程分析法</td>
+	<td align="center" style="vertical-align: middle;text-align: center;">-</td>
+    <td align="center" style="vertical-align: middle;text-align: center;">-</td>
+    </tr>
+ </table>
+ <p></p>
+ <p><a href="#id6.1.4"> 6.1.4</a> <span id="id6.1.4">城市桥梁结构能力保护构件的地震组合内力设计值确定应符合下列规定：</span></p>
+ <ol>
+ <li>当罕遇地震作用下结构未进入塑性工作范围时，墩柱的组合剪力设计值、基础和盖梁的组合内力设计值，应采用罕遇地震的计算结果按本规范第4.3.2条的规定确定。</li>
+ <li>对抗震设计类别为A类，且弹塑性变形、耗能部位位于桥墩的城市桥梁，其盖梁、基础、支座和墩柱的剪力设计值应根据墩柱塑性铰区域横截面的极限抗弯承载力按能力保护设计方法确定。</li>
+ </ol>
+ <p><a href="#id6.1.5"> 6.1.5</a> <span id="id6.1.5">7度及以上地区，城市桥梁墩柱潜在塑性铰区的箍筋应加密配置，并应符合下列规定：</span></p>
+ <ol>
+ <li>加密区范围，应由最大组合弯矩所在截面处算起，长度不应小于弯曲方向墩柱截面边长，且加密区边缘截面的组合弯矩不应大于0.8倍最大组合弯矩；当墩柱高度与弯曲方向截面边长之比小于2.5时，柱加密区范围应取墩柱全高。</li>
+ <li>加密区的最小体积配箍率<i>ρ</i><sub>smin</sub>，7度、8度时应符合下式规定，9度时尚应乘以不小于1.2的放大系数，且均不得小于0.4％：</li>
+ 
+ <p></p>
+ <table border="0" style="font-family:times new roman" id="gongshi">
+ <tr>
+ <td width="800px" align='center' id="eqzs" ><font size="4"><math xmlns='http://www.w3.org/1998/Math/MathML'> <msub> <mrow> <mi> ρ </mi> </mrow> <mrow> <mi> smin </mi> </mrow> </msub><mo> = </mo> <mrow> <mo> { </mo> <mtable columnalign='left'> <mtr> <mtd><mn> 1.52 </mn><mrow><mo> [ </mo><mn> 0.14 </mn><msub><mrow><mi>η </mi></mrow><mrow><mi>k </mi></mrow></msub><mo> + </mo><mn> 5.84 </mn><mrow><mo> ( </mo><msub><mrow><mi> η </mi></mrow><mrow><mi> k </mi></mrow></msub><mo> - </mo><mn> 0.1 </mn><mo> ) </mo></mrow><mrow><mo> ( </mo><msub><mrow> <mi> ρ </mi></mrow><mrow><mi>t </mi></mrow></msub><mo> - </mo><mn> 0.01 </mn><mo> ) </mo></mrow><mo> + </mo><mn> 0.028 </mn><mo> ] </mo></mrow><mfrac><mrow><msub><mrow><mi> f </mi></mrow><mrow><mi>c </mi><mi> d </mi></mrow></msub></mrow><mrow><msub><mrow><mi> f </mi></mrow> <mrow><mi> y </mi><mi> h </mi></mrow></msub></mrow></mfrac></mtd> </mtr> <mtr> <mtd>  <mn> 1.52 </mn><mrow><mo> [ </mo><mn> 0.10 </mn><msub><mrow><mi>η </mi></mrow><mrow><mi>k </mi></mrow></msub><mo> + </mo><mn> 4.17 </mn><mrow><mo> ( </mo><msub><mrow><mi> η </mi></mrow><mrow><mi> k </mi></mrow></msub><mo> - </mo><mn> 0.1 </mn><mo> ) </mo></mrow><mrow><mo> ( </mo><msub><mrow> <mi> ρ </mi></mrow><mrow><mi>t </mi></mrow></msub><mo> - </mo><mn> 0.01 </mn><mo> ) </mo></mrow><mo> + </mo><mn> 0.020 </mn><mo> ] </mo></mrow><mfrac><mrow><msub><mrow><mi> f </mi></mrow><mrow><mi>c </mi><mi> d </mi></mrow></msub></mrow><mrow><msub><mrow><mi> f </mi></mrow> <mrow><mi> y </mi><mi> h </mi></mrow></msub></mrow></mfrac></mtd> </mtr></math></td>
+ <td width="150px" align='right' id="eqzs" style="vertical-align: middle;text-align: center;"><font size="4"><b>(6.1.5)</b></td>
+ </tr>
+ </table>
+ <p></p>
+
+ <table border="0" style="font-family:times new roman" id="gongshi">
+ <tr>
+ <td width="50px" align='center' id="eqzs" >式中</td>
+ <td width="30px" align='left'  id="eqzs" ><i>η</i><sub>k</sub></td>
+  <td width="40px" align='left' id="eqzs">——</td>
+ <td  id="eqzs"> 轴压比，指结构的最不利组合轴向压力与柱的全截面面积和混凝土轴心抗压强度设计值乘积之比值；</td>
+ </tr>
+ <tr>
+ <td id="eqzs"> </td>
+ <td id="eqzs"><i>ρ</i><sub>t</sup></td>
+ <td id="eqzs">——</td>
+ <td id="eqzs"> 纵向配筋率；</td>
+  </tr>
+ <tr>
+ <td id="eqzs"> </td>
+ <td id="eqzs"><i>f</i><sub>yh</sub></td>
+ <td id="eqzs">——</td>
+ <td id="eqzs"> 箍筋抗拉强度设计值（MPa）；</td>
+ </tr>
+ <tr>
+ <td id="eqzs"> </td>
+ <td id="eqzs"><i>f</i><sub>cd</sub></td>
+ <td id="eqzs">——</td>
+ <td id="eqzs"> 混凝土轴心抗压强度设计值（MPa）。</td>
+ </tr>
+ </table>
+ <p> </p>
+
+ <li>加密区的箍筋，直径不应小于10mm，间距不应大于100mm或6倍纵筋的直径或墩柱弯曲方向的截面边长的1／4。</li>
+ <li>螺旋箍筋的接头必须采用对接焊，矩形箍筋应有135°弯钩，且伸入核心混凝土的长度不得小于6倍箍筋直径。</li>
+ </ol>
+ <p><a href="#id6.1.6"> 6.1.6</a> <span id="id6.1.6">城市桥梁墩柱的箍筋非加密区的体积配箍率不应少于加密区的50％。</span></p>
+ <p><a href="#id6.1.7"> 6.1.7</a> <span id="id6.1.7">城市桥梁结构应采用有效的防坠落措施，且梁端至墩、台帽或盖梁边缘的搭接长度，6度不应小于（400＋0.005L）mm，7度及以上，不应小于（700＋0.005L）mm，其中，L为梁的计算跨径（单位，mm）。</span></p>
+ <p><a href="#id6.1.8"> 6.1.8</a> <span id="id6.1.8">城市桥梁抗震措施的使用不应导致主要构件地震反应发生重大改变，否则，抗震分析时应考虑抗震措施与主要构件的相互影响。</span></p>
+
+
+6.2 城乡给水排水和燃气热力工程
+------------------------------------------------------
+
+.. raw:: html
+
+ <p><a href="#id6.2.1"> 6.2.1</a> <span id="id6.2.1">城乡给水排水和燃气热力工程应符合下列规定：</span></p>
+ <ol>
+ <li>地下或半地下砌体结构，砖砌体强度等级不应低于MU10，块石砌体强度等级不应低于MU20；砌筑砂浆应采用水泥砂浆，强度等级不应低于M7.5。</li>
+ <li>盛水构筑物和地下管道的混凝土强度等级不应低于C25；构造柱、芯柱、圈梁及其他各类构件的混凝土强度等级不应低于C25。</li>
+ <li>用于燃气工程储气结构的钢材，应保证冷弯检验合格；燃气、热力工程中的结构用钢，不得采用Q235A级钢材。</li>
+ <li>各类构筑物的非结构构件和附属设备，其自身及其与结构主体的连接，应进行抗震设计。</li>
+ </ol>
+ <p style="text-align:justify;"><a href="#id6.2.2"> 6.2.2</a> <span id="id6.2.2">盛水构筑物的防震缝宽度不得小于30mm。当缝两侧结构在多遇地震最大变形值超过10mm时，应适当加宽，同时应明确止水带相应的技术要求。彼此贴建，且各自独立工作的双墙水池，其防震缝宽度不应小于单侧挡水墙多遇地震最大位移的2倍，且不得小于50mm。</span></p>
+ <p><a href="#id6.2.3"> 6.2.3</a> <span id="id6.2.3">城乡给水排水和燃气热力工程中单层现浇混凝土结构的抗震等级不得低于<a href="#B6.2.3">表6.2.3</a>的规定。</span></p>
+ <table id="biaoge" style="font-family:times new roman">
+ <caption style="caption-side:top;text-align: center;color:black" ><b style="text-align:center"> <div id="#B6.2.3">表6.2.3 单层混凝土结构的抗震等级</b></caption>	    
+	<tr>
+	<td width="400px" rowspan="2" colspan="3" style="vertical-align: middle;text-align: center;" align="center">结构类型</td>
+    <td width="700px" colspan="7" align="center">设防烈度</td>
+	</tr>
+	<tr>
+	<td width="200px"align="center" colspan="2">6度</td>
+	<td width="200px"align="center" colspan="2">7度</td>
+    <td width="200px"align="center" colspan="2">8度</td>
+    <td width="100px"align="center">9度</td>	
+	</tr>
+    <tr>
+    <td align="center" rowspan="5" style="vertical-align: middle;text-align: center;">单层框架结构</td>
+    <td align="center" colspan="2">高度(m)</td>
+    <td align="center">≤12</td>
+	<td align="center">>12</td>
+    <td align="center">≤12</td>
+	<td align="center">>12</td>
+    <td align="center">≤12</td>
+	<td align="center">>12</td>
+    <td align="center">≤12</td>
+    </tr>
+    <tr>
+    <td align="center" style="vertical-align: middle;text-align: center;" rowspan="2">框架</td>
+    <td align="center" width="100px">乙类</td>
+    <td align="center">四</td>
+	<td align="center">三</td>
+    <td align="center">三</td>
+	<td align="center">二</td>
+    <td align="center">二</td>
+	<td align="center">一</td>
+    <td align="center">一</td>
+    </tr>
+    <tr>
+    <td align="center" width="100px">丙类</td>
+    <td align="center">四</td>
+	<td align="center">四</td>
+    <td align="center">四</td>
+	<td align="center">三</td>
+    <td align="center">三</td>
+	<td align="center">二</td>
+    <td align="center">二</td>
+    </tr>
+    <tr>
+    <td align="center" style="vertical-align: middle;text-align: center;" rowspan="2">跨度不小于18m的框架</td>
+    <td align="center">乙类</td>
+    <td align="center" colspan="2">二</td>
+	<td align="center" colspan="2">一</td>
+    <td align="center" colspan="2">一</td>
+    <td align="center">一</td>
+    </tr>
+    <tr>
+    <td align="center">丙类</td>
+    <td align="center" colspan="2">三</td>
+	<td align="center" colspan="2">二</td>
+    <td align="center" colspan="2">一</td>
+    <td align="center">一</td>
+    </tr>
+    <tr>
+    <td align="center" style="vertical-align: middle;text-align: center;" rowspan="2" colspan="2">单层排架结构</td>
+    <td align="center">乙类</td>
+    <td align="center" colspan="2">三</td>
+	<td align="center" colspan="2">二</td>
+    <td align="center" colspan="2">一</td>
+    <td align="center">一</td>
+    </tr>
+    <tr>
+    <td align="center">丙类</td>
+    <td align="center" colspan="2">四</td>
+	<td align="center" colspan="2">三</td>
+    <td align="center" colspan="2">二</td>
+    <td align="center">一</td>
+    </tr>
+    <tr>
+    <td align="center" style="vertical-align: middle;text-align: center;" rowspan="2" colspan="2">钢筋混凝土构筑物、管道</td>
+    <td align="center">乙类</td>
+    <td align="center" colspan="2">三</td>
+	<td align="center" colspan="2">三</td>
+    <td align="center" colspan="2">二</td>
+    <td align="center">二</td>
+    </tr>
+    <tr>
+    <td align="center">丙类</td>
+    <td align="center" colspan="2">四</td>
+	<td align="center" colspan="2">四</td>
+    <td align="center" colspan="2">三</td>
+    <td align="center">三</td>
+    </tr>
+ </table>
+ <p></p>
+ <p><a href="#id6.2.4"> 6.2.4</a> <span id="id6.2.4">城乡给水排水和燃气热力工程中各类结构的抗震验算应符合下列规定：</span></p>
+ <ol>
+ <li>各类建筑物、构筑物的结构构件应按本规范第4章的相关规定进行截面抗震强度验算。</li>
+ <li>承插式连接埋地管道或预制拼装结构应进行抗震变位验算，并应符合下式规定：</li>
+
+$$γ_{Eh} Δ_{plk} \\le λ_{c}\\sum_{i=1}^{n} [u_{a}]_i\\tag{6.2.4-1}$$
+
+.. raw:: html
+ 
+ <table border="0" style="font-family:times new roman" id="gongshi">
+ <tr>
+ <td width="50px" align='center' id="eqzs">式中</td>
+ <td width="30px" align='left' id="eqzs"><i>Δ</i><sub>plk</sub></td>
+ <td width="40px" align='left' id="eqzs">——</td>
+ <td id="eqzs">剪切波行进中引起半个视波长范围内管道沿管轴向的位移量标准值；</td>
+ </tr>
+ <tr>
+ <td id="eqzs"></td>
+ <td id="eqzs"><i>γ</i><sub>Eh</sub></td>
+ <td id="eqzs">——</td>
+ <td id="eqzs">水平向地震作用分项系数，应取1.40；</td>
+ </tr>
+ <tr>
+ <td id="eqzs"></td>
+ <td id="eqzs"><i>[<i>u</i><sub>a</sub>]</i><sub>i</sub></td>
+ <td id="eqzs">——</td>
+ <td id="eqzs">管道i种接头方式的单个接头设计允许位移量；</td>
+ </tr>
+ <tr>
+ <td id="eqzs"></td>
+ <td id="eqzs"><i>λ</i><sub>c</sub></td>
+ <td id="eqzs">——</td>
+ <td id="eqzs">半个视波长范围内管道接头协同工作系数，应取0.64；</td>
+ </tr>
+ <tr>
+ <td id="eqzs"></td>
+ <td id="eqzs">n</td>
+ <td id="eqzs">——</td>
+ <td id="eqzs">半个视波长范围内，管道的接头总数。</td>
+ </tr>
+ </table>
+ <p></p>
+
+ <li>7度及7度以上的整体连接埋地管道应进行截面应变量验算，并应符合下列公式规定：</li>
+
+$$S\\le \\frac{[\\varepsilon_{ak} ]}{\\gamma _{PRE}} \\tag{6.2.4-2}$$
+
+$$S= γ_{G}S_{G}+γ_{Eh}S_{Ek}+ψ_{t}γ_{t}C_{t}Δ_{tk} \\tag{6.2.4-3}$$
+
+.. raw:: html
+ 
+ <table border="0" style="font-family:times new roman" id="gongshi">
+ <tr>
+ <td width="50px" align='center' id="eqzs">式中</td>
+ <td width="30px" align='left' id="eqzs"><i>S</i><sub>G</sub></td>
+ <td width="40px" align='left' id="eqzs">——</td>
+ <td id="eqzs">重力荷载的作用标准值效应；</td>
+ </tr>
+ <tr>
+ <td id="eqzs"></td>
+ <td id="eqzs"><i>S</i><sub>Ek</sub></td>
+ <td id="eqzs">——</td>
+ <td id="eqzs">地震作用标准值效应；</td>
+ </tr>
+ <tr>
+ <td id="eqzs"></td>
+ <td id="eqzs">[<i>ε</i><sub>ak</sub>]</td>
+ <td id="eqzs">——</td>
+ <td id="eqzs">不同材质管道的容许应变量标准值；</td>
+ </tr>
+ <tr>
+ <td id="eqzs"></td>
+ <td id="eqzs"><i>γ</i><sub>G</sub></td>
+ <td id="eqzs">——</td>
+ <td id="eqzs">重力荷载分项系数，一般情况应采用1.3，当重力荷载效应对构件承载能力有利时，不应大于1.0;</td>
+ </tr>
+ <tr>
+ <td id="eqzs"></td>
+ <td id="eqzs"><i>γ</i><sub>Eh</sub></td>
+ <td id="eqzs">——</td>
+ <td id="eqzs">水平向地震作用分项系数，应取1.40；</td>
+ </tr>
+ <tr>
+ <td id="eqzs"></td>
+ <td id="eqzs"><i>γ</i><sub>PRE</sub></td>
+ <td id="eqzs">——</td>
+ <td id="eqzs">埋地管道抗震调整系数，应取0.90；</td>
+ </tr>
+ <tr>
+ <td id="eqzs"></td>
+ <td id="eqzs"><i>Δ</i><sub>tk</sub></td>
+ <td id="eqzs">——</td>
+ <td id="eqzs">温度作用标准值；</td>
+ </tr>
+ <tr>
+ <td id="eqzs"></td>
+ <td id="eqzs"><i>C</i><sub>t</sub></td>
+ <td id="eqzs">——</td>
+ <td id="eqzs">温度作用效应系数；</td>
+ </tr>
+ <tr>
+ <td id="eqzs"></td>
+ <td id="eqzs"><i>γ</i><sub>t</sub></td>
+ <td id="eqzs">——</td>
+ <td id="eqzs">温度作用分项系数，取1.5；</td>
+ </tr>
+ <tr>
+ <td id="eqzs"></td>
+ <td id="eqzs"><i>ψ</i><sub>t</sub></td>
+ <td id="eqzs">——</td>
+ <td id="eqzs">温度作用组合系数，取0.65。</td>
+ </tr>
+ </table>
+ <p></p>
+
+ <li>对污泥消化池、挡墙式结构等，尚应进行罕遇地震下的抗倾覆、抗滑移等整体稳定性验算。</li>
+ </ol>
+ <p><a href="#id6.2.5"> 6.2.5</a> <span id="id6.2.5">燃气工程中的储气柜应符合下列规定：</span></p>
+ <ol>
+ <li>7度及7度以上地区，储气柜的高径比不应超过<a href="B6.2.5">表6.2.5</a>规定。</li>
+ <p></p>
+ <table id="biaoge" style="font-family:times new roman">
+    <caption style="caption-side:top;text-align: center;color:black" ><b style="text-align:center"> <div id="B6.2.5">表6.2.5 储气柜高径比</b></caption>	    
+		<tr>
+		   <td width="100px" align="center">类型</td>
+		   <td width="200px" align="center">低压湿式储气柜</td>
+		   <td width="200px" align="center">橡胶膜密封储气柜</td>
+           <td width="200px" align="center">稀油密封储气柜</td>
+		</tr>
+	   <tr>
+           <td align="center">高径比</td>
+           <td align="center">≤1.2</td> 
+		   <td align="center">≤1.3(1.6)</td>
+		   <td align="center">≤1.7</td>
+		</tr>
+	</table>
+  <p></p>
+ <li>与储气柜相连的进出口燃气管，应设置弯管补偿器或采取其他柔性连接措施。</li>
+ </ol>
+
+ <p><a href="#id6.2.6"> 6.2.6</a> <span id="id6.2.6">城乡给水排水和燃气热力工程中，管道及其连接的材料尚应符合下列规定：</span></p>
+ <ol>
+ <li>输送水、气或热力的有压管道，其管材的材质应具有较好的延性。</li>
+ <li>地下直埋热力管道与其外护层、外保温应具有良好的整体性。</li>
+ <li>热力管道应采用钢制附件。</li>
+ </ol>
+ <p><a href="#id6.2.7"> 6.2.7</a> <span id="id6.2.7">采用砖砌体混合结构的矩形管道应符合下列规定：</span></p>
+ <ol>
+ <li>钢筋混凝土盖板与侧墙应有可靠连接。7度、8度III、IV类场地时，预制装配顶盖不应采用梁板结构（不含钢筋混凝土槽形板结构）。</li>
+ <li>基础应采用整体底板。8度III、IV类场地或9度时，底板应为钢筋混凝土结构。</li>
+ </ol>
+ <p><a href="#id6.2.8"> 6.2.8</a> <span id="id6.2.8">城镇给水排水和燃气热力工程中，直埋承插式圆形管道和矩形管道，在下列部位应设置柔性连接接头或变形缝：</span></p>
+ <ol>
+ <li>穿越铁路及其他重要的交通干线两端。</li>
+ <li>承插式管道的三通、四通、大于45°的弯头等附件与直线管段连接处，且附件支墩按柔性连接的受力条件进行设计。</li>
+ </ol>
+ <p><a href="#id6.2.9"> 6.2.9</a> <span id="id6.2.9">城镇给水排水和燃气热力工程中，管道穿过建（构）筑物的墙体或基础时，应符合下列规定：</span></p>
+ <ol>
+ <li>在穿管的墙体或基础上应设置套管，穿管与套管之间的间隙应用柔性防腐、防水材料密封。</li>
+ <li>当穿越的管道与墙体或基础嵌固时，应在穿越的管道上就近设置柔性连接装置。</li>
+ </ol>
+ <p><a href="#id6.2.10"> 6.2.10</a> <span id="id6.2.10">城镇给水排水和燃气热力工程中，输水、输气等埋地管道穿越活动断裂带时，应采取下列措施：</span></p>
+ <ol>
+ <li>管道应敷设在套管内，管道与套管之间的间隙应用柔性防腐、防水材料密封；套管周围应填充干砂。</li>
+ <li>管道及套筒应采用钢管。</li>
+ <li>断裂带两侧的管道上，应在适当位置设置紧急关断阀门。</li>
+ </ol>
+ <p><a href="#id6.2.11"> 6.2.11</a> <span id="id6.2.11">燃气厂及储配站的出口处，均应设置紧急关断阀门。</span></p>
+ <p><a href="#id6.2.12"> 6.2.12</a> <span id="id6.2.12">管网上的阀门均应设置阀门井。</span></p>
+ <p><a href="#id6.2.13"> 6.2.13</a> <span id="id6.2.13">架空管道的滑动支架应设置侧向挡板，挡板应与管道支架协同设计，地震作用不应小于管道支座横向水平地震作用标准值的75％。</span></p>
+
+
+6.3 地下工程结构
+-----------------------------------------
+
+.. raw:: html
+
+ <p style="text-align:justify;"><a href="#id6.3.1"> 6.3.1</a> <span id="id6.3.1">地下工程的总体布置应力求简单、对称、规则、平顺。结构体系应根据使用要求、场地工程地质条件和施工方法等确定，并应具有良好的整体性，避免抗侧力结构的侧向刚度和承载力突变。出入口通道两侧的边坡和洞口仰坡，应依据地形、地质条件选用合理的口部结构类型，提高其抗震稳定性。</span></p>
+ <p style="text-align:justify;"><a href="#id6.3.2"> 6.3.2</a> <span id="id6.3.2">丙类钢筋混凝土地下结构的抗震等级，6度、7度时不应低于四级，8度、9度时不应低于三级。甲、乙类钢筋混凝土地下结构的抗震等级，6度、7度时不应低于三级，8度、9度时不应低于二级。</span></p>
+ <p><a href="#id6.3.3"> 6.3.3</a> <span id="id6.3.3">除下列情况外，地下工程均应进行地震响应分析：</span></p>
+ <ol>
+ <li>6度、7度设防时位于I、II场地中的丙类、丁类地下工程。</li>
+ <li>8度（0.20g）设防时位于I、II类场地、层数不超过2层、体型规则且跨度不超过18m的丙类和丁类地下工程。</li>
+ </ol>
+ <p style="text-align:justify;"><a href="#id6.3.4"> 6.3.4</a> <span id="id6.3.4">地下工程的地震响应分析模型，应能反映周围挡土结构和内部各构件的实际受力状况。对于周围地层分布均匀、规则且具有对称轴的长线型地下工程，允许采用平面应变分析模型；其他情况，应采用空间结构分析模型。</span></p>
+ <p><a href="#id6.3.5"> 6.3.5</a> <span id="id6.3.5">地下工程进行地震响应分析时，各设计参数应符合下列规定：</span></p>
+ <ol>
+ <li>对于采用平面应变分析模型的地下结构，允许仅计算横向水平地震作用。</li>
+ <li>对采用空间结构分析模型的地下工程，应同时计算横向和纵向水平地震作用。</li>
+ <li>采用土层—结构时程分析法或等效水平地震加速度法时，土、岩石的动力特性参数应符合工程实际情况。</li>
+ </ol>
+ <p><a href="#id6.3.6"> 6.3.6</a> <span id="id6.3.6">地下工程的抗震验算，除应符合本规范第4章的要求外，尚应符合下列规定：</span></p>
+ <ol>
+ <li>应根据预期的设防目标，进行第一或第二水准地震作用下的构件截面承载力和结构弹性变形验算。</li>
+ <li>应根据预期的设防目标，进行第三水准地震作用下的弹塑性变形验算。</li>
+ <li>液化地基中的地下工程，尚应进行液化时的抗浮稳定性验算。</li>
+ </ol>
+ <p><a href="#id6.3.7"> 6.3.7</a> <span id="id6.3.7">地下工程的顶板、底板和楼板，应符合下列规定：</span></p>
+ <ol>
+ <li>当采用板柱—抗震墙结构时，无柱帽的平板应在柱上板带中设构造暗梁。</li>
+ <li>地下工程的顶板、底板及各层楼板的钢筋锚入长度应满足受力要求，并应不小于规定的锚固长度。</li>
+ <li>楼板开孔时，孔洞宽度不应大于该层楼板典型宽度的30％；洞口周边应设置边梁或暗梁。</li>
+ </ol>
+ <p><a href="#id6.3.8"> 6.3.8</a> <span id="id6.3.8">地下工程周围土体和地基存在液化土层时，应采取下列措施：</span></p>
+ <ol>
+ <li>对液化土层采取消除或减轻液化影响的措施。</li>
+ <li>进行地下结构液化抗浮验算，必要时采取增设抗拔桩、配置压重等相应的抗浮措施。</li>
+ </ol>
+ <p><a href="#id6.3.9"> 6.3.9</a> <span id="id6.3.9">地下工程穿越地震时岸坡可能滑动的古河道或可能发生明显不均匀沉陷的软土地带时，应采取更换软弱土或设置桩基础等防治措施。</span></p>
+ <p><a href="#id6.3.10"> 6.3.10</a> <span id="id6.3.10">位于岩石中的地下工程，应采取下列抗震措施：</span></p>
+ <ol>
+ <li>口部通道和未经注浆加固处理的断层破碎带区段采用复合式支护结构时，内衬结构应采用钢筋混凝土衬砌，不得采用素混凝土衬砌。</li>
+ <li>采用离壁式衬砌时，内衬结构应在拱墙相交处设置水平撑抵紧围岩。</li>
+ <li>采用钻爆法施工时，初期支护和围岩地层间应密实回填。干砌块石回填时应注浆加强。</li>
+ </ol>
+
+:math:`\ `

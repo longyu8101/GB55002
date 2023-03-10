@@ -1,0 +1,22 @@
+三、术语
+===============
+
+
+
+.. raw:: html
+
+  <h2 id="test111">三、术语</h2>
+  <p>1 抗震设防烈度&emsp;&emsp;seismic precautionary intensity <br>&emsp;&emsp;&emsp;按国家规定的权限批准作为一个地区抗震设防依据的地震烈度。一般情况，取50年内超越概率10％的地震烈度。</p>
+  <p>2 抗震设防标准&emsp;&emsp;seismic precautionary criterion <br>&emsp;&emsp;&emsp;衡量抗震设防要求高低的尺度，由抗震设防烈度或设计地震动参数及建筑抗震设防类别确定。</p>
+  <p>3 地震动参数区划图&emsp;&emsp;seismic ground motion parameter zonation map <br>&emsp;&emsp;&emsp;以地震动参数（以加速度表示地震作用强弱程度）为指标，将全国划分为不同抗震设防要求区域的图件。</p>
+  <p>4 地震作用&emsp;&emsp;earthquake action <br>&emsp;&emsp;&emsp;由地震动引起的结构动态作用，包括水平地震作用和竖向地震作用。</p>
+  <p>5 设计地震动参数&emsp;&emsp;design parameters of ground motion <br>&emsp;&emsp;&emsp;抗震设计用的地震加速度（速度、位移）时程曲线、加速度反应谱和峰值加速度。</p>
+  <p>6 设计基本地震加速度&emsp;&emsp;design basic acceleration of ground motion <br>&emsp;&emsp;&emsp;50年设计基准期超越概率10％的地震加速度的设计取值。</p>
+  <p>7 设计特征周期&emsp;&emsp;design characteristic period of ground motion <br>&emsp;&emsp;&emsp;抗震设计用的地震影响系数曲线中，反映地震震级、震中距和场地类别等因素的下降段起始点对应的周期值，简称特征周期。</p>
+  <p>8 场地&emsp;&emsp;site <br>&emsp;&emsp;&emsp;工程群体所在地，具有相似的反应谱特征。其范围相当于厂区、居民小区和自然村或不小于1.0k㎡的平面面积。</p>
+  <p>9 建筑抗震概念设计&emsp;&emsp;seismic concept design of buildings <br>&emsp;&emsp;&emsp;根据地震灾害和工程经验等所形成的基本设计原则和设计思想，进行建筑和结构总体布置并确定细部构造的过程。</p>
+  <p>10 抗震措施&emsp;&emsp;seismic measures <br>&emsp;&emsp;&emsp;除地震作用计算和抗力计算以外的抗震设计内容，包括抗震构造措施。</p>
+  <p>11 抗震构造措施&emsp;&emsp;details of seismic design <br>&emsp;&emsp;&emsp;根据抗震概念设计原则，一般不需计算而对结构和非结构各部分必须采取的各种细部要求。</p>
+  <p>12 抗震设防分类&emsp;&emsp;seismic fortification category for struc-tures <br>&emsp;&emsp;&emsp;根据建筑遭遇地震破坏后，可能造成人员伤亡、直接和间接经济损失、社会影响的程度及其在抗震救灾中的作用等因素，对各类建筑所做的设防类别划分。</p>
+  <p>13 能力保护设计方法&emsp;&emsp;capacity protection design method <br>&emsp;&emsp;&emsp;为保证在预期地震作用下，桥梁结构中的能力保护构件在弹性范围工作，其抗弯能力应高于塑性铰区抗弯能力的设计方法。</p>
+  <p>14 能力保护构件&emsp;&emsp;capacity protection member <br>&emsp;&emsp;&emsp;采用能力保护设计方法设计的构件。</p>

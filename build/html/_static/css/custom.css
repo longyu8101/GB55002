@@ -65,5 +65,10 @@ h1{
     font-weight: 400;
 }
 
+footer p{
+    line-height: 0px;
+    font-size: 0px;
+    margin: 0 0 0px;
+}
 
 

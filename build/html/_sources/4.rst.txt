@@ -398,7 +398,7 @@ $$S=\\gamma_{G} S_{GE}+\\gamma_{Eh} S_{Ehk}+\\gamma_{Ev} S_{Evk}+\\sum\\gamma_{D
  <td width="50px" align='center' id="eqzs">式中</td>
  <td width="70px" align='left' id="eqzs">S</td>
  <td width="40px" align='left' id="eqzs">——</td>
- <td id="eqzs">结构构件地震组合内力设计值，包括组合的弯矩、轴向力和剪力设计值等；</td>
+ <td id="eqzs" style="text-align:justify;">结构构件地震组合内力设计值，包括组合的弯矩、轴向力和剪力设计值等；</td>
  </tr>
  <tr>
  <td id="eqzs"></td>
